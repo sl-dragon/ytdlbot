@@ -16,7 +16,7 @@ from limit import QUOTA, VIP
 
 
 class BotText:
-    start = "Welcome to YouTube Download bot. Type /help for more information."
+    start = "Welcome to YS AnyDownload bot from @mybotz. Type /help for more information."
 
     help = f"""
 1. This bot should works at all times. 
@@ -28,7 +28,7 @@ every one can use this bot within **{sizeof_fmt(QUOTA)} of quota for every {int(
 
 3. You can optionally choose to become 'VIP' user if you need more traffic. Type /vip for more information.
 
-4. Source code for this bot will always stay open, here-> https://github.com/tgbot-collection/ytdlbot
+4.  Supported Links, here-> https://ytdl-org.github.io/youtube-dl/supportedsites.html
     """ if ENABLE_VIP else "NO help"
 
     about = "NO about, Just use the bot"
@@ -74,6 +74,8 @@ __I live in a place where I don't have access to Telegram Payments. So...__
 
     private = "This bot is for private use"
     membership_require = f"You need to join this group or channel to use this bot\n\nhttps://t.me/{REQUIRED_MEMBERSHIP}"
+    
+    me = "Created By @mybotz"
 
     settings = """
 Select sending format and video quality. **Only applies to YouTube**
